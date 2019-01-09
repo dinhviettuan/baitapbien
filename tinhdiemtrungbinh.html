@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>tinh diem trung binh mon hoc </p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+	var vatly,hoahoc,sinhhoc;
+    vatly = parseInt(prompt("nhap vao diem vatly",0));
+    hoahoc = parseInt(prompt("nhap vao diem hoahoc",0));
+    sinhhoc = parseInt(prompt("nhap vao diem sinhhoc",0));
+	var diemtrungbinh = (vatly + hoahoc + sinhhoc)/3;
+    document.write("diemtrungbinh: " + diemtrungbinh);
+}
+</script>
+
+</body>
+</html>
